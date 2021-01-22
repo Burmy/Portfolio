@@ -1,0 +1,32 @@
+.bar{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.nav{
+    padding-right: 20px;
+    padding-top: 35px;
+
+}
+
+.btn {
+    color: #ffe8f4;
+    /* font-family: 'Syne', sans-serif; */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 8px 20px 8px 20px;
+    border: 2.3px solid #ffeff7;
+    border-radius: .5rem;
+    font-size: 20px;
+    background-color: rgba(59, 38, 58, 0);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: #3c1c41;
+    background-color: #fce6f1;
+    transform: scale(1.08);
+  }
