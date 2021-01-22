@@ -21,7 +21,20 @@ const Header = () => {
                     <span style="--index: 2s">y</span>
                 </span>
             </h1> */}
-            yeee
+
+            <div class="container">
+                <div class="box">
+                    <div class="title">
+                        <span class="block"></span>
+                        <h1>Kaio Almeida<span></span></h1>
+                    </div>
+
+                    <div class="role">
+                        <div class="block"></div>
+                        <p>UI Dev designer</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
