@@ -1,0 +1,11 @@
+.about-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 40px 120px 40px 120px;
+    font-size: 23px;
+    text-align: center;
+    width: 900px;
+}

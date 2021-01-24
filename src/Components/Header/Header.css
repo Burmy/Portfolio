@@ -1,31 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-    
- .hero .box {
-	 height: 250px;
+.header-box {
+	margin-top: 80px;
+	margin-bottom: 30px;
 	 position: relative;
 	 display: flex;
 	 justify-content: center;
 	 flex-direction: column;
 }
- .hero .box .title {
+.header-box .title {
 	 width: 100%;
 	 position: relative;
 	 display: flex;
 	 align-items: center;
 	 height: 50px;
 }
- .hero .box .title .block {
+.header-box .title .block {
 	 width: 0%;
 	 height: inherit;
 	 background: #F7CA17;
 	 position: absolute;
+	 height: 80px;
 	 animation: mainBlock 1.5s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 	 display: flex;
 }
- .hero .box .title h1 {
+.header-box .title h1 {
 	 color: #EFEFEF;
-	 font-size: 50px;
+	 font-size: 75px;
 	 animation: mainFadeIn 1.2s forwards;
 	 animation-delay: 1.3s;
 	 opacity: 0;
@@ -33,7 +34,7 @@
 	 align-items: baseline;
 	 position: relative;
 }
- .hero .box .title h1 span {
+.header-box .title h1 span {
 	 width: 0px;
 	 height: 0px;
 	 border-radius: 50%;
