@@ -1,9 +1,18 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.project-box {
+	margin-top: 80px;
+	margin-bottom: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.mp{
+margin: 60px;
+font-size: 36px;
+text-decoration: underline;
+text-decoration-color: #F7CA17;
+text-decoration-thickness: 3.5px;
+}
 .card {
     border: 1px solid rgb(5, 5, 5);
     border-radius: 1rem;
@@ -14,5 +23,23 @@
     height: 450px; 
 
 }
-.info{
+.image{
+    width: 35%;
+}
+.data{
+    flex-direction: column;
+    width: 65%;
+    padding: 40px;
+    border: solid 2px black;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill{
+    padding: 10px;
+    margin: 5px;
+    border: solid 1.4px #F7CA17;
+    border-radius: 7px;
 }
