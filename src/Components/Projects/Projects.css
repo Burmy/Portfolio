@@ -20,7 +20,7 @@
   margin-bottom: 50px;
   display: inline-block;
   width: 900px;
-  height: 450px; 
+  height: 400px; 
 
 }
 .project-image{
@@ -40,8 +40,9 @@
   flex-direction: column;
   width: 65%;
   padding: 40px;
-
 }
+
+.name{}
 .project-skills{
   display: flex;
   flex-direction: row;
