@@ -14,7 +14,7 @@ const Projects = () => {
                     </div>
                     <div className="center project-data">
                         <h1 className="name">Wildfire Tracker</h1>
-                        <p>This website tracks the wildfires going around the world using a NASA API.</p>
+                        <p>This website tracks the wildfires going around the world using a NASA API. </p>
                         <div className="project-skills">
                             <p className="skill">HTML</p>
                             <p className="skill">CSS</p>
@@ -24,10 +24,12 @@ const Projects = () => {
                         </div>
                         <div className="project-links">
 
-
-                            <p className="demo">Live Demo</p>
-                            <p className="source">View Source</p>
-
+                            <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
+                                <button className="demo">Live Demo</button>
+                            </form>
+                            <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
+                                <button className="source">View Source</button>
+                            </form>
                         </div>
                     </div>
                 </div>

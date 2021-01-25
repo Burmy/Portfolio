@@ -40,6 +40,7 @@
     font-size: 25px;
     background-color: #1B1B1B;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .btn:hover {
