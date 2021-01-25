@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css'
+import './Anmol Burmy.pdf'
 
 const Navigation = () => {
     return (
@@ -7,11 +8,8 @@ const Navigation = () => {
             <div className="logo">
                 AB
             </div>
-
             <div className="nav">
-                <form action="/Anmol-Burmy.pdf" method="get" target="_blank">
-                    <button className="btn" >Resume</button>
-                </form>
+                <button className="btn" >Resume</button>
             </div>
         </ div >
     );

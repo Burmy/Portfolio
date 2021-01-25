@@ -14,51 +14,88 @@
   text-decoration-thickness: 3.5px;
 }
 .project-card {
-  border-radius: 1rem;
-  box-shadow:   0 7px 30px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
   margin-bottom: 50px;
   display: inline-block;
-  width: 900px;
-  height: 400px; 
+  width:980px;
+  height: 420px; 
 
 }
 .project-image{
-  width: 35%;
+  width: 65%;
 }
-.img{
-  background: url(/src/logo.png);
+.project-data{
+  flex-direction: column;
+  width: 35%;
+  padding: 20px;
+}
+
+.img1{
+  background: url(/src/Images/Wildfire.png);
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.img2{
+  background: url(/src/Images/Crypto.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .name{
-  margin-top: -10px;
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: -12px;
 }
-.project-data{
-  flex-direction: column;
-  width: 65%;
-  padding: 40px;
+.name-opp{
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: -12px;
+}
+.info{
+  background-color: #3b3a3a;
+  padding: 30px;
+  box-shadow:   0 7px 30px -10px rgba(0, 0, 0, 0.5); 
+  margin-left: -100px;
+  border-radius: 6px;
+  text-align: right;
+}
+
+.info-opp{
+  background-color: #3b3a3a;
+  padding: 30px;
+  box-shadow:   0 7px 30px -10px rgba(0, 0, 0, 0.5); 
+  margin-right: -100px;
+  border-radius: 6px;
+  text-align: left;
+  z-index: 1;
 }
 
 .project-skills{
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
+  z-index: 1;
 }
 
 .skill{
-  padding: 9px;
-  margin: 5px;
-  
-  border: solid 1.4px #F7CA17;
-  border-radius: 7px;
+  padding: 3px;
 }
 
 .project-links{
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  padding: 25px;
 }
 
 .demo{
@@ -67,7 +104,7 @@
   border: 2.3px solid #F7CA17;
   border-radius: .5rem;
   font-size: 20px;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   padding: 7px;
