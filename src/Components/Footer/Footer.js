@@ -1,43 +1,22 @@
-// import React from 'react';
-// import './Footer.css'
-
-// const Footer = () => {
-//     return (
-//         < div className="foot" >
-//             <div className="mail">
-//                 anmolburmy@gmaibvs
-//             </div>
-//             <div className="socials">
-//                 <ul>
-//                     <li>Github</li>
-//                     <li>linkedin</li>
-//                     <li>handshake</li>
-//                 </ul>
-//             </div>
-//         </ div >
-//     );
-// }
-
-// export default Footer;
-
-import React from 'react';
+import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
     return (
-        < div className="foot" >
-            <div className="socials">
-                <ul className="social-links">
-                    <li>Github</li>
-                    <li>linkedin</li>
-                    <li>handshake</li>
-                </ul>
+        <div className="center footer">
+            <div className="footer-box">
+                <p>Top of the page</p>
+                <a href="#top">
+                    <btn className="arrow-up">
+                        <span className="left-arm"></span>
+                        <span className="right-arm"></span>
+                        <span className="arrow-slide"></span>
+                    </btn>
+                </a>
             </div>
-            <div className="mail">
-                <p>Anmolburmy145@gmail.com</p>
-            </div>
-        </ div >
-    );
+        </div >
+    )
 }
 
-export default Footer;
+export default Footer
+

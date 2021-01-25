@@ -1,35 +1,82 @@
-.foot{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    color: #F7CA17;
-    position: fixed;
-    bottom:0px;
-}
-
-.socials{
-  width: 100%;
+.footer-box{
+  margin: 50px;
   display: flex;
-  justify-content: flex-start;
-  padding: 60px;
-  padding-top:50px ;
-  padding-left: 50px;
-  
-  
-}
-
-.mail{ 
-  padding: 60px;
-  padding-top:50px ;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  writing-mode: vertical-lr;
 }
-
-.social-links{
-    list-style: none;
-    text-align: center;
+.arrow-up {
+  height: 40px;
+  width: 40px;
+  display: block;
+  border: 1px solid #F7CA17;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+  overflow: hidden;
+}
+.arrow-slide {
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background: #F7CA17;
+  position: absolute;
+  display: block;
+  z-index: 0;
+}
+.left-arm {
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  top: 19px;
+  left: 3px;
+  width: 20px;
+  display: block;
+  transform: rotate(-45deg);
+}
+.left-arm:after {
+  content: "";
+  background-color: #F7CA17;
+  width: 20px;
+  height: 1px;
+  display: block;
+  border-radius: 1px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+  transform-origin: right center;
+  z-index: -1;
+}
+.right-arm {
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  top: 19px;
+  left: 17px;
+  width: 20px;
+  display: block;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+.right-arm:after {
+  content: "";
+  background-color: #F7CA17;
+  width: 20px;
+  height: 1px;
+  display: block;
+  border-radius: 1px;
+  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+  transform-origin: left center;
+  z-index: -1;
+}
+.arrow-up:hover {
+  transition: all 0.1s;
+}
+.arrow-up:hover .left-arm:after {
+  transform: rotate(-10deg);
+}
+.arrow-up:hover .right-arm:after {
+  transform: rotate(10deg);
+}
+.arrow-up:hover .arrow-slide {
+  transition: all 0.4s ease-in-out;
+  transform: translateY(200%);
 }
