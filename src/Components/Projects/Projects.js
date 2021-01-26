@@ -29,7 +29,7 @@ const Projects = () => {
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
                             <li className="skill">JavaScript</li>
-                            <li lassName="skill">ReactJs</li>
+                            <li className="skill">ReactJs</li>
                             <li className="skill">NASA API</li>
                         </ul>
                     </div>
@@ -41,11 +41,11 @@ const Projects = () => {
                     <div className="center project-data">
                         <h1 className="name-opp">Wildfire Tracker</h1>
                         <p className="info-opp">This website tracks the wildfires going around the world using a NASA API. </p>
-                        <ul className="project-skills">
+                        <ul className="project-skills-opp">
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
                             <li className="skill">JavaScript</li>
-                            <li lassName="skill">ReactJs</li>
+                            <li className="skill">ReactJs</li>
                             <li className="skill">NASA API</li>
                         </ul>
                     </div>

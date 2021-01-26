@@ -86,21 +86,29 @@
 
 .project-skills{
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+.project-skills-opp{
+  display: flex;
   align-items: flex-end;
   flex-direction: column;
-  z-index: 1;
-  height: 30px;
-  list-style-type: none;
+  text-align: right;
+  
 }
 
 .skill{
-  padding: 3px;
+  padding: 7px;
+  list-style-type: none;
 }
 
 .project-links{
   display: flex;
   flex-direction: row;
   padding: 25px;
+  
 }
 
 .demo{
