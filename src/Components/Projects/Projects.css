@@ -15,7 +15,7 @@
 }
 .project-card {
   border-radius: 6px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   display: inline-block;
   width:980px;
   height: 420px; 
@@ -46,6 +46,28 @@
 }
 .img2{
   background: url(/src/Images/Crypto.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.img3{
+  background: url(/src/Images/Face.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.img4{
+  background: url(/src/Images/Robo.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -112,12 +134,12 @@
 }
 
 .demo{
-  color: #F7CA17;
+  color: #3b3a3a;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  border: 2.3px solid #F7CA17;
+  border: 2.8px solid #3b3a3a;
   border-radius: .5rem;
   font-size: 20px;
-  background-color: #1b1b1b;
+  background-color: #F7CA17;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   padding: 7px;
@@ -126,18 +148,18 @@
   
   .demo:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  color: #1B1B1B;
-  background-color: #F7CA17;
+  color: #F7CA17;
+  background-color: #3b3a3a;
   transform: scale(1.08);
   }
 
   .source{
   color: #F7CA17;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  border: 2.3px solid #F7CA17;
+  border: 2.8px solid #3b3a3a;
   border-radius: .5rem;
   font-size: 20px;
-  background-color: #1B1B1B;
+  background-color: #3b3a3a;
   cursor: pointer;
   padding: 7px;
   font-family: 'Montserrat', sans-serif;
@@ -145,7 +167,8 @@
   
   .source:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  color: #1B1B1B;
+  color: #3b3a3a;
   background-color: #F7CA17;
+  border: 2.8px solid #F7CA17;
   transform: scale(1.08);
   }
