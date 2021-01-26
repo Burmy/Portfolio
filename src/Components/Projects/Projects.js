@@ -52,10 +52,10 @@ const Projects = () => {
                     <div className="center project-image">
                         <div className="img2">
                             <div className="project-links">
-                                <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
+                                <form action="https://burmy.github.io/Crypto-tracker/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
-                                <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
+                                <form action="https://github.com/Burmy/Crypto-tracker" method="get" target="_blank">
                                     <button className="source">View Source</button>
                                 </form>
                             </div>
@@ -69,10 +69,10 @@ const Projects = () => {
                         <div className="img3">
                             <div className="project-links">
 
-                                <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
+                                <form action="https://face-detecting-ai.herokuapp.com/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
-                                <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
+                                <form action="https://github.com/Burmy/face-ai" method="get" target="_blank">
                                     <button className="source">View Source</button>
                                 </form>
                             </div>
@@ -109,10 +109,10 @@ const Projects = () => {
                     <div className="center project-image">
                         <div className="img4">
                             <div className="project-links">
-                                <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
+                                <form action="https://burmy.github.io/robo-friends/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
-                                <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
+                                <form action="https://github.com/Burmy/robo-friends" method="get" target="_blank">
                                     <button className="source">View Source</button>
                                 </form>
                             </div>
