@@ -25,13 +25,13 @@ const Projects = () => {
                     <div className="center project-data">
                         <h1 className="name">Wildfire Tracker</h1>
                         <p className="info">This website tracks the wildfires going around the world using a NASA API. </p>
-                        <div className="project-skills">
-                            <p className="skill">HTML</p>
-                            <p className="skill">CSS</p>
-                            <p className="skill">JavaScript</p>
-                            <p className="skill">ReactJs</p>
-                            <p className="skill">NASA API</p>
-                        </div>
+                        <ul className="project-skills">
+                            <li className="skill">HTML</li>
+                            <li className="skill">CSS</li>
+                            <li className="skill">JavaScript</li>
+                            <li lassName="skill">ReactJs</li>
+                            <li className="skill">NASA API</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -41,13 +41,13 @@ const Projects = () => {
                     <div className="center project-data">
                         <h1 className="name-opp">Wildfire Tracker</h1>
                         <p className="info-opp">This website tracks the wildfires going around the world using a NASA API. </p>
-                        <div className="project-skills">
-                            <p className="skill">HTML</p>
-                            <p className="skill">CSS</p>
-                            <p className="skill">JavaScript</p>
-                            <p className="skill">ReactJs</p>
-                            <p className="skill">NASA API</p>
-                        </div>
+                        <ul className="project-skills">
+                            <li className="skill">HTML</li>
+                            <li className="skill">CSS</li>
+                            <li className="skill">JavaScript</li>
+                            <li lassName="skill">ReactJs</li>
+                            <li className="skill">NASA API</li>
+                        </ul>
                     </div>
                     <div className="center project-image">
                         <div className="img2">
@@ -59,32 +59,6 @@ const Projects = () => {
                                     <button className="source">View Source</button>
                                 </form>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="center project-card ">
-                    <div className="center project-image">
-                        <div className="img"></div>
-                    </div>
-                    <div className="center project-data">
-                        <h1 className="name">Wildfire Tracker</h1>
-                        <p>This website tracks the wildfires going around the world using a NASA API. </p>
-                        <div className="project-skills">
-                            <p className="skill">HTML</p>
-                            <p className="skill">CSS</p>
-                            <p className="skill">JavaScript</p>
-                            <p className="skill">ReactJs</p>
-                            <p className="skill">NASA API</p>
-                        </div>
-                        <div className="project-links">
-
-                            <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
-                                <button className="demo">Live Demo</button>
-                            </form>
-                            <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
-                                <button className="source">View Source</button>
-                            </form>
                         </div>
                     </div>
                 </div>
