@@ -11,12 +11,14 @@ const Footer = () => {
                         <span className="left-arm"></span>
                         <span className="right-arm"></span>
                         <span className="arrow-slide"></span>
+
                     </btn>
                 </a>
             </div>
         </div >
     )
 }
+
 
 export default Footer
 

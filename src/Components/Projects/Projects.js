@@ -86,7 +86,7 @@ const Projects = () => {
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
                             <li className="skill">JavaScript</li>
-                            <li className="skill">ReactJs</li>
+                            <li className="skill">React</li>
                         </ul>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const Projects = () => {
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
                             <li className="skill">JavaScript</li>
-                            <li className="skill">ReactJs</li>
+                            <li className="skill">React</li>
                         </ul>
                     </div>
                     <div className="center project-image">
