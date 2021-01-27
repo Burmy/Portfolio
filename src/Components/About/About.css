@@ -4,8 +4,11 @@
     justify-content: center;
     flex-direction: column;
     color: rgb(255, 255, 255);
-    padding: 40px 120px 40px 120px;
+    padding: 30px 110px 30px 110px;
     font-size: 23px;
     text-align: center;
     width: 900px;
+    background-color: #3b3a3a;
+    border-radius: 6px;
+    z-index: -1;
 }
