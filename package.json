@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "mailgo": "^0.11.3",
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
@@ -35,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify-icons/eva": "^1.1.0",
+    "@iconify-icons/zmdi": "^1.1.0",
+    "@iconify/react": "^1.1.3"
   }
 }

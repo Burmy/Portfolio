@@ -14,11 +14,7 @@ const Navigation = () => {
                         Resume
                     </button>
                 </a>
-                <ul className="Contact">
-                    <li className="">HTML</li>
-                    <li className="">CSS</li>
-                    <li className="">JavaScript</li>
-                </ul>
+
             </div>
         </ div >
     );
