@@ -1,13 +1,28 @@
 .footer-box{
-  margin: 50px;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
+}
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.top{
+  width: 40px;
+  display: flex;
+  width: 100px;
+  padding-left: 20px;
+  
 }
 .arrow-up {
   height: 40px;
-  width: 40px;
-  border: 1px solid #F7CA17;
+  width: 200px;
+  border: 2px solid #F7CA17;
+  border-radius: .5rem;
   position: relative;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
@@ -35,6 +50,7 @@
   width: 20px;
   display: block;
   transform: rotate(-45deg);
+  margin-left: 15px;
 }
 .left-arm:after {
   content: "";
@@ -57,6 +73,7 @@
   display: block;
   transform: rotate(45deg);
   border-radius: 2px;
+  margin-left: 15px;
 }
 .right-arm:after {
   content: "";

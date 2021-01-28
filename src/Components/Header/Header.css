@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 .header-box {
-	margin-top: 145px;
+	margin-top: 160px;
 	margin-bottom: 30px;
 	 position: relative;
 	 display: flex;
@@ -96,7 +96,7 @@
 		 height: 10px;
 		 background: #e9d856;
 		 opacity: 1;
-		 bottom: 45px;
+		 bottom: 40px;
 	}
 	 65% {
 		 width: 7px;
