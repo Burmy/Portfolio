@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'
-import Pdf from '../Navbar/Resume.pdf';
+import Pdf from '../Navbar/AB-resume.pdf';
 
 const Navigation = () => {
     return (
