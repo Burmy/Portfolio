@@ -2,7 +2,6 @@ import React from 'react'
 import './Footer.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-
 const Footer = () => {
     return (
         <div className="center footer">
@@ -19,7 +18,6 @@ const Footer = () => {
         </div >
     )
 }
-
 
 export default Footer
 

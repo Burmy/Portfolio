@@ -8,6 +8,7 @@
 	 justify-content: center;
 	 flex-direction: column;
 }
+
 .header-box .title {
 	 width: 100%;
 	 position: relative;
@@ -15,6 +16,7 @@
 	 align-items: center;
 	 height: 50px;
 }
+
 .header-box .title .block {
 	 width: 0%;
 	 height: inherit;
@@ -24,6 +26,7 @@
 	 animation: mainBlock 1.5s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 	 display: flex;
 }
+
 .header-box .title h1 {
 	 color: #EFEFEF;
 	 font-size: 75px;
@@ -34,6 +37,7 @@
 	 align-items: baseline;
 	 position: relative;
 }
+
 .header-box .title h1 span {
 	 width: 0px;
 	 height: 0px;
@@ -47,6 +51,7 @@
 	 bottom: 13px;
 	 right: -12px;
 }
+
  @keyframes mainBlock {
 	 0% {
 		 width: 0%;
@@ -61,6 +66,7 @@
 		 left: 100%;
 	}
 }
+
  @keyframes secBlock {
 	 0% {
 		 width: 0%;
@@ -75,6 +81,7 @@
 		 left: 100%;
 	}
 }
+
  @keyframes mainFadeIn {
 	 0% {
 		 opacity: 0;
@@ -83,6 +90,7 @@
 		 opacity: 1;
 	}
 }
+
  @keyframes popIn {
 	 0% {
 		 width: 0px;
@@ -148,6 +156,7 @@
 	font-size: 28px;
 	cursor: pointer;
 }
+
 .icon2{
 	color: #F7CA17;
 	padding-right:10px;
@@ -155,6 +164,7 @@
 	font-size: 28px;
 	cursor: pointer;
 }
+
 .icon3{
 	color: #F7CA17;
 	padding-right:20px;
@@ -162,6 +172,7 @@
 	font-size: 28px;
 	cursor: pointer;
 }
+
 .line {
 	width: 150px;
 	height: 2px;

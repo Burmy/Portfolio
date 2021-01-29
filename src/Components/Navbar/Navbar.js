@@ -14,7 +14,6 @@ const Navigation = () => {
                         Resume
                     </button>
                 </a>
-
             </div>
         </ div >
     );

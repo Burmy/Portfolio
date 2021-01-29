@@ -18,7 +18,6 @@ const Projects = () => {
                         <h1 className="name">Wildfire Tracker</h1>
                         <p className="info">This website tracks the wildfires going around the world using a NASA API. </p>
                         <div className="project-links">
-
                             <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
                             </form>
@@ -33,7 +32,6 @@ const Projects = () => {
                             <li className="skill">React</li>
                             <li className="skill">NASA API</li>
                         </ul>
-
                     </div>
                 </div>
 
@@ -60,7 +58,6 @@ const Projects = () => {
                     </div>
                     <div className="center project-image">
                         <div className="img2">
-
                         </div>
                     </div>
                 </div>

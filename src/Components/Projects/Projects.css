@@ -6,6 +6,7 @@
 	justify-content: center;
 	flex-direction: column;
 }
+
 .mp{
   margin: 60px;
   font-size: 36px;
@@ -14,6 +15,7 @@
   text-decoration-thickness: 3.5px;
   margin-bottom: 80px;
 }
+
 .project-card {
   border-radius: 6px;
   margin-bottom: 100px;
@@ -22,10 +24,12 @@
   height: 420px; 
 
 }
+
 .project-image{
   width: 65%;
   box-shadow: 0 14px 28px rgb(0, 0, 0), 0 10px 10px rgb(0, 0, 0);
 }
+
 .project-data{
   flex-direction: column;
   width: 35%;

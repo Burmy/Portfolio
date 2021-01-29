@@ -6,7 +6,6 @@ import Mail from '@iconify-icons/zmdi/email';
 import Git from '@iconify-icons/zmdi/github-alt';
 import mailgo from "mailgo";
 
-
 const Header = () => {
     mailgo();
 
