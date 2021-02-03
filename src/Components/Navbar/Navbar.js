@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'
-import Pdf from '../Navbar/AB-resume.pdf';
+import PDF from '../Navbar/AB-resume.pdf';
 
 const Navigation = () => {
     return (
@@ -9,7 +9,7 @@ const Navigation = () => {
                 AB
             </div>
             <div className="nav">
-                <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+                <a href={PDF} without rel="noopener noreferrer" target="_blank">
                     <button className="btn" trailingIcon="picture_as_pdf" label="Resume">
                         Resume
                     </button>
