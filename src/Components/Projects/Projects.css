@@ -37,7 +37,7 @@
   
 }
 
-.img1{
+.img-wildifre{
   background: url(/src/Images/Wildfire.png);
   background-position: center;
   background-size: cover;
@@ -49,7 +49,7 @@
   justify-content: center;
   
 }
-.img2{
+.img-crytpo{
   background: url(/src/Images/Crypto.png);
   background-position: center;
   background-size: cover;
@@ -60,7 +60,18 @@
   align-items: flex-end;
   justify-content: center;
 }
-.img3{
+.img-portfolio{
+  background: url(/src/Images/Wildfire.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.img-face{
   background: url(/src/Images/Face.png);
   background-position: center;
   background-size: cover;
@@ -71,7 +82,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.img4{
+.img-robo{
   background: url(/src/Images/Robo.png);
   background-position: center;
   background-size: cover;
@@ -82,6 +93,7 @@
   align-items: flex-end;
   justify-content: center;
 }
+
 .name{
   font-size: 30px;
   text-align: right;
