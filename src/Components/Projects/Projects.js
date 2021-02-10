@@ -62,6 +62,31 @@ const Projects = () => {
                     </div>
                 </div>
 
+                <div className="center project-card ">
+                    <div className="center project-image">
+                        <div className="img3">
+                        </div>
+                    </div>
+                    <div className="center project-data">
+                        <h1 className="name">My Portfolio</h1>
+                        <p className="info">A website that detects faces from images taken anywhere from the internet. This was a part of a Udemy course I took during the summer of 2020. </p>
+                        <div className="project-links">
+                            <form action="https://burmy.me/" method="get" target="_blank">
+                                <button className="demo">Live Demo</button>
+                            </form>
+                            <form action="https://github.com/Burmy/face-ai" method="get" target="_blank">
+                                <button className="source">View Source</button>
+                            </form>
+                        </div>
+                        <ul className="project-skills">
+                            <li className="skill">HTML</li>
+                            <li className="skill">CSS</li>
+                            <li className="skill">JavaScript</li>
+                            <li className="skill">React</li>
+                        </ul>
+                    </div>
+                </div>
+
 
                 <div className="center project-card ">
                     <div className="center project-image">
