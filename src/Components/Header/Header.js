@@ -25,7 +25,7 @@ const Header = () => {
                         <Icon icon={Git} className="icon1" />
                     </a>
                     <li className="lnk">·</li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/anmol-burmy-243b171b8/">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/burmy/">
                         <Icon icon={Link} className="icon2" />
                     </a>
                     <li className="lnk">·</li>
