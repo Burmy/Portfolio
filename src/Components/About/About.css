@@ -13,7 +13,23 @@
     z-index: -1;
     margin-top: 80px;
 }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.about-box{
+	position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 900px;
+    background-color: #3b3a3a;
+    border-radius: 6px;
+    z-index: -1;
+    margin-top: 80px;
+	}
+  }
 .hl{
     color:#F7CA17;
 }
