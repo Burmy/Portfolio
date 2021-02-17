@@ -28,8 +28,11 @@
     border-radius: 6px;
     z-index: -1;
     margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
 	}
   }
+
 .hl{
     color:#F7CA17;
 }
