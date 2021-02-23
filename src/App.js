@@ -1,6 +1,6 @@
 
 import Header from './Components/Header/Header'
-// import Projects from './Components/Projects/Projects'
+import Projects from './Components/Projects/Projects'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <Footer />
     </div>
   );
