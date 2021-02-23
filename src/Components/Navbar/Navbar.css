@@ -8,6 +8,16 @@
     position: fixed;
 }
 
+@media only screen and (max-device-width: 1500px) {
+	.bar{
+		width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #F7CA17;
+    position: inherit;
+	  }
+  }
+
 .logo{
   width: 100%;
   display: flex;
@@ -17,14 +27,6 @@
   padding-left: 80px;
   font-size: 50px;
   font-family: 'Monoton', cursive;
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-	.logo{
-		width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    font-family: 'Monoton', cursive;
-	}
 }
 
 .nav{
@@ -37,19 +39,6 @@
   align-items: center;
   font-size: 24px;
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-	.nav{
-		padding: 60px;
-    padding-top:50px ;
-	  display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 24px;
-    overflow: hidden;
-	  }
-  }
 
 .btn {
     color: #F7CA17;
@@ -64,6 +53,7 @@
     font-family: 'Montserrat', sans-serif;
   }
   
+
   .btn:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     color: #1B1B1B;
