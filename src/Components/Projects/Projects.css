@@ -31,7 +31,13 @@
   box-shadow: 0 14px 28px rgb(0, 0, 0), 0 10px 10px rgb(0, 0, 0);
 }
 
-
+@media only screen and (max-device-width: 750px) {
+	.project-image{
+  width: 100%;
+  opacity: 50%;
+  z-index: -1;
+	}
+}
 
 .project-data{
   flex-direction: column;
@@ -39,11 +45,7 @@
   padding: 20px;
 }
 
-@media only screen and (max-device-width: 950px) {
-	.project-image{
-	padding-left: -300px;
-	}
-}
+
 
 .img-wildifre{
   background: url(/src/Images/Wildfire.png);
