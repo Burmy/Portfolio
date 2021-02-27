@@ -42,7 +42,7 @@ const Projects = () => {
                         <h1 className="name-opp">Crypto Currency Tracker</h1>
                         <p className="info-opp">A website that shows Crypto Currency trends. This was made during the time when crypto currency reached its all time high value.</p>
                         <div className="project-links">
-                            <form action="https://burmy.github.io/Crypto-tracker/" method="get" target="_blank">
+                            <form action="https://burmy.github.io/Crypto-Tracker/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
                             </form>
                             <form action="https://github.com/Burmy/Crypto-tracker" method="get" target="_blank">
