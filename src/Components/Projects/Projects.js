@@ -18,7 +18,7 @@ const Projects = () => {
                         <h1 className="name">Wildfire Tracker</h1>
                         <p className="info">This website tracks the wildfires going around the world using a NASA API. </p>
                         <div className="project-links">
-                            <form action="https://burmy.github.io/Wildfire-tracker/" method="get" target="_blank">
+                            <form action="https://burmy.github.io/Wildfire-Tracker/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
                             </form>
                             <form action="https://github.com/Burmy/Wildfire-tracker" method="get" target="_blank">
