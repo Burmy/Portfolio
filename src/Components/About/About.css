@@ -8,10 +8,10 @@
     font-size: 23px;
     text-align: center;
     width: 900px;
-    background-color: #3b3a3a;
+    background-color: #222831;
     border-radius: 6px;
     z-index: -1;
-    margin: 60px;
+    margin-top: 150px;
     margin-bottom: -15px;
 }
 
@@ -26,7 +26,7 @@
     font-size: 18px;
     text-align: center;
     width: 900px;
-    background-color: #3b3a3a;
+    background-color: #393e46;
     border-radius: 6px;
     z-index: -1;
     margin-top: 20px;
@@ -37,5 +37,5 @@
 }
 
 .hl{
-    color:#F7CA17;
+    color:#00adb5;
 }

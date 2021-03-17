@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 import PDF from '../Navbar/Resume.pdf';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navigation = () => {
     return (
@@ -8,14 +9,28 @@ const Navigation = () => {
             <div className="logo">
                 AB
             </div>
-            <div className="nav">
+
+            <nav className="nav">
+                <ul className="nav-ul">
+
+                    <AnchorLink href='#about'>
+                        <li>About</li>
+                    </AnchorLink>
+
+                    <AnchorLink href='#projects'>
+                        <li>Projects</li>
+                    </AnchorLink>
+
+                </ul>
                 <a href={PDF} without rel="noopener noreferrer" target="_blank">
                     <button className="btn" trailingIcon="picture_as_pdf" label="Resume">
                         Resume
                     </button>
                 </a>
-            </div>
+            </nav>
+
         </ div >
+
     );
 }
 
