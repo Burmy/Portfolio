@@ -1,7 +1,7 @@
 .project-box {
 	margin-top: 80px;
 	margin-bottom: 30px;
-	position: relative;
+  width: 1300px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -13,11 +13,10 @@
   text-decoration: underline;
   text-decoration-color: #00adb5;
   text-decoration-thickness: 3.5px;
-  margin-bottom: 80px;
 }
 
 .project-card {
-  margin-bottom: 100px;
+  margin: 120px;
   display: inline-block;
   width: 90%;
   height: 420px; 
@@ -208,7 +207,7 @@
 
 
 @media screen and (min-width: 1440px){
-  .image-25 {
+  .porjectBG {
     position: absolute;
     top: auto;
     bottom: auto;
@@ -219,9 +218,24 @@
   }
 }
 
-.image-25 {
-  left: 30px;
+.porjectBG {
+  position: absolute;
+  left: 300px;
   z-index: -1;
-  width: 63%;
+  margin-top: 20px;
+  width: 43%;
   transform: rotateY(-180deg);
+}
+
+@media screen and (min-width: 1440px){}
+.porjectBG-opp {
+    position: absolute;
+    width: 100%;
+}
+
+.porjectBG-opp {
+  position: absolute;
+  right: 350px;
+  z-index: -1;
+  width: 35%;
 }

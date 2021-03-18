@@ -5,39 +5,39 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 @media screen and (min-width: 1440px){
-    .aboutBG-1 {
-        position: absolute;
-        left: 50%;
-        top: -80px;
-        right: auto;
-        bottom: auto;
-        display: block;
-        width: 70%;
-        -webkit-transform: translate(-50%, 0px);
-        -ms-transform: translate(-50%, 0px);
-        transform: translate(-50%, 0px);
-        -o-object-fit: fill;
-        object-fit: fill;
+.aboutBG-1 {
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 70%;
+    -webkit-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+    -o-object-fit: fill;
+     object-fit: fill;
     }
-    }
+}
     
-    .aboutBG-1 {
-        position: absolute;
-        left: 50%;
-        top: -72px;
-        right: auto;
-        z-index: -1;
-        width: 70%;
-        margin-right: auto;
-        margin-left: auto;
-        -webkit-transform: translate(-50%, 0px);
-        -ms-transform: translate(-50%, 0px);
-        transform: translate(-50%, 0px);
-    }
+.aboutBG-1 {
+    position: absolute;
+    left: 50%;
+    top: -72px;
+    right: auto;
+    z-index: -1;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+}
 
 @media screen and (min-width: 1440px){
     .aboutBG-2 {
@@ -83,8 +83,8 @@ img{
 
 .about-box {
     position: relative;
-    padding: 30px 110px 30px 110px;
-    font-size: 23px;
+    padding: 60px 110px 60px 110px;
+    font-size: 25px;
     text-align: center;
     border: 3px solid #001323;
     background-color: #ffffff;

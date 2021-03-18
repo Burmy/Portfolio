@@ -15,7 +15,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="center project-data">
-                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="image-25"></img>
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae400b820032ad1a780595_fresh-1-timeboss.png" alt="" class="porjectBG"></img>
                         <h1 className="name">Wildfire Tracker</h1>
                         <p className="info">This website tracks the wildfires going around the world using a NASA API. </p>
                         <div className="project-links">
@@ -40,8 +40,9 @@ const Projects = () => {
                 <div className="center project-card ">
 
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="porjectBG-opp"></img>
                         <h1 className="name-opp">SF Hacks</h1>
-                        <p className="info-opp"></p>
+                        <p className="info-opp">This SF Hacks website I redesigned during SF Hacks 2021 and won a Web Competition for the best redesign.</p>
                         <div className="project-links">
                             <form action="https://burmy.github.io/sfhacks/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
@@ -71,6 +72,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae400b820032ad1a780595_fresh-1-timeboss.png" alt="" class="porjectBG"></img>
                         <h1 className="name">Crypto Currency Tracker</h1>
                         <p className="info">A website that shows Crypto Currency trends. This was made during the time when crypto currency reached its all time high value.</p>
                         <div className="project-links">
@@ -95,6 +97,7 @@ const Projects = () => {
                 <div className="center project-card ">
 
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="porjectBG-opp"></img>
                         <h1 className="name-opp">My Portfolio</h1>
                         <p className="info-opp">A website showcasing all my projects.</p>
                         <div className="project-links">
@@ -126,6 +129,7 @@ const Projects = () => {
                     </div>
 
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae400b820032ad1a780595_fresh-1-timeboss.png" alt="" class="porjectBG"></img>
                         <h1 className="name">Face Detecting AI</h1>
                         <p className="info">A website that detects faces from images taken anywhere from the internet. This was a part of a Udemy course I took during the summer of 2020. </p>
                         <div className="project-links">
@@ -150,6 +154,7 @@ const Projects = () => {
                 <div className="center project-card ">
 
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="porjectBG-opp"></img>
                         <h1 className="name-opp">Robo Friends</h1>
                         <p className="info-opp">This app is just a simple user search app and was the first react app I ever created.</p>
                         <div className="project-links">

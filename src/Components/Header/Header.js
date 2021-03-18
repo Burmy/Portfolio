@@ -11,6 +11,8 @@ const Header = () => {
 
     return (
         <div className="center header" id="top">
+
+
             <div className="header-box">
                 <h2>Hi, my name is</h2>
                 <div className="title">
@@ -35,8 +37,8 @@ const Header = () => {
                     <p className="line"></p>
                 </ul>
             </div>
-
         </div>
+
     )
 }
 
