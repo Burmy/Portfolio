@@ -15,6 +15,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="center project-data">
+                        <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="image-25"></img>
                         <h1 className="name">Wildfire Tracker</h1>
                         <p className="info">This website tracks the wildfires going around the world using a NASA API. </p>
                         <div className="project-links">

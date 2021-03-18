@@ -47,7 +47,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .btn {
@@ -55,10 +55,10 @@
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     padding: 8px 20px 8px 20px;
     border: 2.3px solid #00adb5;
-    font-size: 25px;
+    font-size: 22px;
     background-color: transparent;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   @media only screen and (max-device-width: 460px) {
@@ -82,7 +82,7 @@
 nav li {
   color: #00adb5;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   padding-right: 30px;
 }

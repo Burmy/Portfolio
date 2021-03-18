@@ -17,7 +17,6 @@
 }
 
 .project-card {
-  border-radius: 6px;
   margin-bottom: 100px;
   display: inline-block;
   width: 90%;
@@ -28,7 +27,9 @@
 
 .project-image{
   width: 65%;
-  box-shadow: 0 14px 28px rgb(0, 0, 0), 0 10px 10px rgb(0, 0, 0);
+  border: 3px solid #001323;
+  background-color: #fafafa;
+  position: relative;
 }
 
 @media only screen and (max-device-width: 750px) {
@@ -46,14 +47,12 @@
 }
 
 
-
 .img-wildifre{
   background: url(/src/Images/Wildfire.png);
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -65,7 +64,6 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -76,7 +74,6 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -87,7 +84,6 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -98,7 +94,6 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 6px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -117,20 +112,20 @@
 .info{
   background-color: #393e46;
   padding: 23px;
-  box-shadow:0 7px 30px -10px rgb(0, 0, 0);
   margin-left: -100px;
-  border-radius: 6px;
   text-align: right;
+  border: 3px solid #001323;
+  background-color: #fafafa;
+  z-index: 1;
 }
-
 .info-opp{
   background-color: #393e46;
-  padding: 23px;
-  box-shadow:   0 7px 30px -10px rgb(0, 0, 0); 
+  padding: 23px; 
   margin-right: -100px;
-  border-radius: 6px;
   text-align: left;
   z-index: 1;
+  border: 3px solid #001323;
+  background-color: #fafafa;
 }
 
 .project-skills{
@@ -163,11 +158,10 @@
   color: #393e46;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border: 2.8px solid #00adb5;
-  border-radius: .5rem;
   font-size: 20px;
   background-color: #00adb5;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 7px;
   padding-left: 10px;
   padding-right: 10px;
@@ -175,7 +169,6 @@
   }
   
   .demo:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   color: #00adb5;
   background-color: #393e46;
   border: 2.8px solid #393e46;
@@ -186,20 +179,38 @@
   color: #393e46;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border: 2.8px solid #00adb5;
-  border-radius: .5rem;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #00adb5;
   cursor: pointer;
   padding: 7px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   }
   
   .source:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   color: #00adb5;
   background-color: #393e46;
   border: 2.8px solid #393e46;
   transform: scale(1.08);
   }
+
+
+@media screen and (min-width: 1440px){
+  .image-25 {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    overflow: visible;
+    -webkit-transform: translate(0px, 0%);
+    -ms-transform: translate(0px, 0%);
+    transform: translate(0px, 0%);
+  }
+}
+
+.image-25 {
+  left: 30px;
+  z-index: -1;
+  width: 63%;
+  transform: rotateY(-180deg);
+}

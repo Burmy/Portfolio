@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+.header{
+    padding: 80px;
+    align-items: stretch;
+    background-color: #000;
+    background-image: url("https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fac36560db9c75ab13090ba_fresh-cta-background.jpg");
+    background-size: cover;
+}
+
 .header-box {
 	 position: relative;
 	 display: flex;
