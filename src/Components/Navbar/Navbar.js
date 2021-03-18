@@ -7,15 +7,14 @@ const Navigation = () => {
     return (
         < div className="bar" id="Navbar" >
             <div className="logo">
-                AB
             </div>
 
             <nav className="nav">
                 <ul className="nav-ul">
 
-                    <AnchorLink href='#about'>
+                    {/* <AnchorLink href='#About'>
                         <li>About</li>
-                    </AnchorLink>
+                    </AnchorLink> */}
 
                     <AnchorLink href='#projects'>
                         <li>Projects</li>

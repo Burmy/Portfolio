@@ -3,7 +3,7 @@
 .bar{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
     color: #5641EA;
     position: fixed;
     z-index: 2;
@@ -22,12 +22,11 @@
   }
 
 .logo{
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 40px;
-  font-size: 50px;
-  font-family: 'Monoton', cursive;
+  background: url(/src/Images/boldd.svg);
+  background-size: 100% 100%;
+  width: 200px;
+  height: 53px;
+  margin: 15px;
 }
 
 @media only screen and (max-device-width: 460px) {
@@ -39,15 +38,16 @@
 }
 
 .nav{
-  margin-right: 40px;
+  width: 100%;
+  margin-right: 70px;
   padding: 10px;
   position: relative;
 	display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row;
   align-items: center;
-  font-size: 16px;
 }
+
 
 .btn {
     color: #5641EA;
@@ -58,12 +58,6 @@
     background-color: transparent;
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
-  }
-  
-  @media only screen and (max-device-width: 460px) {
-    .btn{
-    display: none;
-    }
   }
 
 .btn:hover {
