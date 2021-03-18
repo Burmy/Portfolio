@@ -20,8 +20,8 @@
 	 width: 100%;
 	 color: rgb(255, 255, 255);
 	 padding: 200px;
-	 background-color: rgba(255, 255, 255, 0.04);
-	 backdrop-filter: blur(30px);
+	 background-color: rgba(255, 255, 255, 0.007);
+	 backdrop-filter: blur(25px);
 }
 
 @media only screen and (max-device-width: 1500px) {
