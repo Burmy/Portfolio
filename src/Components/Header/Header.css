@@ -36,7 +36,7 @@
   }
 
 .header-box .title {
-	 width: 500px;
+	 width: 550px;
 	 position: relative;
 	 display: flex;
 	 align-items: center;
@@ -57,7 +57,7 @@
 
 .header-box .title h1 {
 	 color: #eeeeee;
-	 font-size: 75px;
+	 font-size: 85px;
 	 animation: mainFadeIn 1.2s forwards;
 	 animation-delay: 1.3s;
 	 opacity: 0;
@@ -79,6 +79,10 @@
 		margin: 15px;
 	}
   }
+
+h2{
+	font-size: 30px;
+}
   @media only screen and (max-device-width: 550px) {
 	.header-box h2{
 		margin: 15px;
