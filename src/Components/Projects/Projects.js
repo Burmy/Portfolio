@@ -40,8 +40,39 @@ const Projects = () => {
                 <div className="center project-card ">
 
                     <div className="center project-data">
-                        <h1 className="name-opp">Crypto Currency Tracker</h1>
-                        <p className="info-opp">A website that shows Crypto Currency trends. This was made during the time when crypto currency reached its all time high value.</p>
+                        <h1 className="name-opp">SF Hacks</h1>
+                        <p className="info-opp"></p>
+                        <div className="project-links">
+                            <form action="https://burmy.github.io/sfhacks/" method="get" target="_blank">
+                                <button className="demo">Live Demo</button>
+                            </form>
+                            <form action="https://github.com/Burmy/sfhacks" method="get" target="_blank">
+                                <button className="source">View Source</button>
+                            </form>
+                        </div>
+                        <ul className="project-skills-opp">
+                            <li className="skill">HTML</li>
+                            <li className="skill">CSS</li>
+                            <li className="skill">JavaScript</li>
+                            <li className="skill">React</li>
+                        </ul>
+                    </div>
+                    <div className="center project-image">
+                        <div className="img-hacks">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="center project-card ">
+                    <div className="center project-image">
+                        <div className="img-crytpo">
+                        </div>
+                    </div>
+                    <div className="center project-data">
+                        <h1 className="name">Crypto Currency Tracker</h1>
+                        <p className="info">A website that shows Crypto Currency trends. This was made during the time when crypto currency reached its all time high value.</p>
                         <div className="project-links">
                             <form action="https://burmy.github.io/Crypto-Tracker/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
@@ -50,28 +81,22 @@ const Projects = () => {
                                 <button className="source">View Source</button>
                             </form>
                         </div>
-                        <ul className="project-skills-opp">
+                        <ul className="project-skills">
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
                             <li className="skill">JavaScript</li>
                             <li className="skill">React</li>
                         </ul>
                     </div>
-                    <div className="center project-image">
-                        <div className="img-crytpo">
-                        </div>
-                    </div>
+
                 </div>
 
 
                 <div className="center project-card ">
-                    <div className="center project-image">
-                        <div className="img-portfolio">
-                        </div>
-                    </div>
+
                     <div className="center project-data">
-                        <h1 className="name">My Portfolio</h1>
-                        <p className="info">A website showcasing all my projects.</p>
+                        <h1 className="name-opp">My Portfolio</h1>
+                        <p className="info-opp">A website showcasing all my projects.</p>
                         <div className="project-links">
                             <form action="https://burmy.me/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
@@ -80,6 +105,37 @@ const Projects = () => {
                                 <button className="source">View Source</button>
                             </form>
                         </div>
+                        <ul className="project-skills-opp">
+                            <li className="skill">HTML</li>
+                            <li className="skill">CSS</li>
+                            <li className="skill">JavaScript</li>
+                            <li className="skill">React</li>
+                        </ul>
+                    </div>
+                    <div className="center project-image">
+                        <div className="img-portfolio">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="center project-card ">
+                    <div className="center project-image">
+                        <div className="img-face">
+                        </div>
+                    </div>
+
+                    <div className="center project-data">
+                        <h1 className="name">Face Detecting AI</h1>
+                        <p className="info">A website that detects faces from images taken anywhere from the internet. This was a part of a Udemy course I took during the summer of 2020. </p>
+                        <div className="project-links">
+                            <form action="https://face-detecting-ai.herokuapp.com/" method="get" target="_blank">
+                                <button className="demo">Live Demo</button>
+                            </form>
+                            <form action="https://github.com/Burmy/face-ai" method="get" target="_blank">
+                                <button className="source">View Source</button>
+                            </form>
+                        </div>
                         <ul className="project-skills">
                             <li className="skill">HTML</li>
                             <li className="skill">CSS</li>
@@ -87,19 +143,20 @@ const Projects = () => {
                             <li className="skill">React</li>
                         </ul>
                     </div>
+
                 </div>
 
 
                 <div className="center project-card ">
 
                     <div className="center project-data">
-                        <h1 className="name-opp">Face Detecting AI</h1>
-                        <p className="info-opp">A website that detects faces from images taken anywhere from the internet. This was a part of a Udemy course I took during the summer of 2020. </p>
+                        <h1 className="name-opp">Robo Friends</h1>
+                        <p className="info-opp">This app is just a simple user search app and was the first react app I ever created.</p>
                         <div className="project-links">
-                            <form action="https://face-detecting-ai.herokuapp.com/" method="get" target="_blank">
+                            <form action="https://burmy.github.io/robo-friends/" method="get" target="_blank">
                                 <button className="demo">Live Demo</button>
                             </form>
-                            <form action="https://github.com/Burmy/face-ai" method="get" target="_blank">
+                            <form action="https://github.com/Burmy/robo-friends" method="get" target="_blank">
                                 <button className="source">View Source</button>
                             </form>
                         </div>
@@ -111,34 +168,8 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="center project-image">
-                        <div className="img-face">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="center project-card ">
-                    <div className="center project-image">
                         <div className="img-robo">
                         </div>
-                    </div>
-                    <div className="center project-data">
-                        <h1 className="name">Robo Friends</h1>
-                        <p className="info">This app is just a simple user search app and was the first react app I ever created.</p>
-                        <div className="project-links">
-                            <form action="https://burmy.github.io/robo-friends/" method="get" target="_blank">
-                                <button className="demo">Live Demo</button>
-                            </form>
-                            <form action="https://github.com/Burmy/robo-friends" method="get" target="_blank">
-                                <button className="source">View Source</button>
-                            </form>
-                        </div>
-                        <ul className="project-skills">
-                            <li className="skill">HTML</li>
-                            <li className="skill">CSS</li>
-                            <li className="skill">JavaScript</li>
-                            <li className="skill">React</li>
-                        </ul>
                     </div>
                 </div>
 

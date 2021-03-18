@@ -6,9 +6,9 @@
     justify-content: flex-end;
     color: #00adb5;
     position: fixed;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.075);
-    backdrop-filter: blur(100px);
+    z-index: 2;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D1D1D1;
 }
 
 @media only screen and (max-device-width: 1500px) {
@@ -25,7 +25,6 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding: 10px;
   padding-left: 40px;
   font-size: 50px;
   font-family: 'Monoton', cursive;

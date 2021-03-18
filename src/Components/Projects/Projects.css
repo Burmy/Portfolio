@@ -99,6 +99,17 @@
   justify-content: center;
 }
 
+.img-hacks{
+  background: url(/src/Images/hacks.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .name{
   font-size: 30px;
   text-align: right;
@@ -110,13 +121,13 @@
   margin-bottom: -12px;
 }
 .info{
+  position: relative;
   background-color: #393e46;
   padding: 23px;
   margin-left: -100px;
   text-align: right;
   border: 3px solid #001323;
   background-color: #fafafa;
-  z-index: 1;
 }
 .info-opp{
   background-color: #393e46;
