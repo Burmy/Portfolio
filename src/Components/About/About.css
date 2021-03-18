@@ -1,19 +1,94 @@
+.about-container {
+    position: relative;
+    z-index: -1;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1440px){
+    .aboutBG-1 {
+        position: absolute;
+        left: 50%;
+        top: -80px;
+        right: auto;
+        bottom: auto;
+        display: block;
+        width: 70%;
+        -webkit-transform: translate(-50%, 0px);
+        -ms-transform: translate(-50%, 0px);
+        transform: translate(-50%, 0px);
+        -o-object-fit: fill;
+        object-fit: fill;
+    }
+    }
+    
+    .aboutBG-1 {
+        position: absolute;
+        left: 50%;
+        top: -72px;
+        right: auto;
+        z-index: -1;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        -webkit-transform: translate(-50%, 0px);
+        -ms-transform: translate(-50%, 0px);
+        transform: translate(-50%, 0px);
+    }
+
+@media screen and (min-width: 1440px){
+    .aboutBG-2 {
+        position: absolute;
+        left: auto;
+        top: -84px;
+        right: -50px;
+        bottom: auto;
+        width: 33%;
+    }
+}
+
+.aboutBG-2 {
+    position: absolute;
+    top: -73px;
+    bottom: auto;
+    width: 35%;
+}
+
+
+
+@media screen and (min-width: 1440px){
+    .aboutBG-3{
+        left: -54px;
+        top: 84px;
+        bottom: auto;
+        width: 55%;
+    }
+}
+
+
+.aboutBG-3 {
+    position: absolute;
+    top: 50px;
+    bottom: auto;
+    width: 55%;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
 .about-box {
     position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: rgb(255, 255, 255);
     padding: 30px 110px 30px 110px;
     font-size: 23px;
     text-align: center;
-    width: 900px;
-    background-color: #222831;
-    border-radius: 6px;
-    z-index: -1;
-    margin-top: 150px;
-    margin-bottom: -15px;
+    border: 3px solid #001323;
+    background-color: #fafafa;
 }
+
+
 
   @media only screen and (max-device-width: 950px) {
 	.about-box{
@@ -21,7 +96,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: rgb(255, 255, 255);
     padding: 20px;
     font-size: 18px;
     text-align: center;
