@@ -14,9 +14,10 @@ function App() {
       <Fade>
         <Header />
         <About />
-        <Projects />
-        <Footer />
       </Fade>
+      <Projects />
+      <Footer />
+
     </div>
   );
 }

@@ -16,7 +16,7 @@
 }
 
 .project-card {
-  margin: 120px;
+  margin: 80px;
   display: inline-block;
   width: 90%;
   height: 420px; 
@@ -193,7 +193,7 @@
 }
 
 
-@media screen and (min-width: 1440px){
+/* @media screen and (min-width: 1440px){
   .porjectBG {
     position: absolute;
     top: auto;
@@ -225,4 +225,4 @@
   right: 350px;
   z-index: -1;
   width: 35%;
-}
+} */
