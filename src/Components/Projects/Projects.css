@@ -131,6 +131,7 @@
   margin-bottom: -12px;
 }
 .info{
+  font-size: 20px;
   position: relative;
   background-color: #393e46;
   padding: 23px;
@@ -138,8 +139,11 @@
   text-align: right;
   border: 3px solid #001323;
   background-color: #fafafa;
+  line-height: 25px;
 }
 .info-opp{
+  font-size: 20px;
+  line-height: 25px;
   background-color: #393e46;
   padding: 23px; 
   margin-right: -100px;
@@ -152,14 +156,14 @@
 .project-skills{
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-left: -40px;
 }
 
 .project-skills-opp{
   display: flex;
   align-items: flex-end;
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: right;
   
 }
@@ -172,19 +176,25 @@
 .project-links{
   display: flex;
   flex-direction: row;
-  
+}
+
+.project-links-opp{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: -20px;
 }
 
 .demo {
   color: #5641EA;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  padding: 10px 20px 8px 20px;
+  padding: 10px 30px 8px 30px;
   border: 2.3px solid #5641EA;
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .demo:hover {

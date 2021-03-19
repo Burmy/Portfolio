@@ -47,7 +47,7 @@ const Projects = () => {
                         <div className="center project-data">
                             <h1 className="name-opp">SF Hacks</h1>
                             <p className="info-opp">This SF Hacks website I redesigned during SF Hacks 2021 and won a Web Competition for the best redesign.</p>
-                            <div className="project-links">
+                            <div className="project-links-opp">
                                 <form action="https://burmy.github.io/sfhacks/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
@@ -106,7 +106,7 @@ const Projects = () => {
                             {/* <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="porjectBG-opp"></img> */}
                             <h1 className="name-opp">My Portfolio</h1>
                             <p className="info-opp">A website showcasing all my projects.</p>
-                            <div className="project-links">
+                            <div className="project-links-opp">
                                 <form action="https://burmy.me/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
@@ -165,7 +165,7 @@ const Projects = () => {
                             {/* <img src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fae402787959bb2ce47e195_fresh-1-spreadsheet.png" alt="" class="porjectBG-opp"></img> */}
                             <h1 className="name-opp">Robo Friends</h1>
                             <p className="info-opp">This app is just a simple user search app and was the first react app I ever created.</p>
-                            <div className="project-links">
+                            <div className="project-links-opp">
                                 <form action="https://burmy.github.io/robo-friends/" method="get" target="_blank">
                                     <button className="demo">Live Demo</button>
                                 </form>
