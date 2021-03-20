@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-decoration: none;
 }
 
 a { text-decoration: none; }
@@ -12,90 +11,34 @@ a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
-.top{
-  width: 40px;
-  display: flex;
-  width: 100px;
-  padding-left: 20px;
-  
-}
-.arrow-up {
-  height: 40px;
-  width: 200px;
-  border: 2px solid #5641EA;
-  position: relative;
+
+.top {
+  color: #5641EA;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 10px 50px 8px 50px;
+  border: 2.3px solid #5641EA;
+  font-size: 22px;
+  background-color: transparent;
   cursor: pointer;
-  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
-.arrow-slide {
-  left: 0;
-  top: -100%;
-  width: 100%;
-  height: 100%;
-  background: #5641EA;
-  position: absolute;
-  display: block;
-  z-index: 0;
+
+.top:hover {
+  color: #5641EA;
+  background-color: #d0ccfa;
 }
-.left-arm {
-  position: absolute;
-  z-index: 1;
-  background-color: transparent;
-  top: 19px;
-  left: 3px;
-  width: 20px;
-  display: block;
-  transform: rotate(-45deg);
-  margin-left: 15px;
+
+.arrow {
+  border: solid #5641EA;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 7px;
+  margin-right: 10px;
+  margin-bottom: -5px;
 }
-.left-arm:after {
-  content: "";
-  background-color: #5641EA;
-  width: 20px;
-  height: 1px;
-  display: block;
-  border-radius: 1px;
-  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
-  transform-origin: right center;
-  z-index: -1;
-}
-.right-arm {
-  position: absolute;
-  z-index: 1;
-  background-color: transparent;
-  top: 19px;
-  left: 17px;
-  width: 20px;
-  display: block;
-  transform: rotate(45deg);
-  border-radius: 2px;
-  margin-left: 15px;
-}
-.right-arm:after {
-  content: "";
-  background-color: #5641EA;
-  width: 20px;
-  height: 1px;
-  display: block;
-  border-radius: 1px;
-  transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
-  transform-origin: left center;
-  z-index: -1;
-}
-.arrow-up:hover {
-  transition: all 0.1s;
-}
-.arrow-up:hover .left-arm:after {
-  transform: rotate(-10deg);
-}
-.arrow-up:hover .right-arm:after {
-  transform: rotate(10deg);
-}
-.arrow-up:hover .arrow-slide {
-  transition: all 0.4s ease-in-out;
-  transform: translateY(200%);
+
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
