@@ -7,7 +7,7 @@
     color: #5641EA;
     position: fixed;
     z-index: 2;
-    background-color: #FFFFFF;
+    background-color: #FDFDFD;
     border-bottom: 1px solid #D1D1D1;
 }
 
@@ -15,9 +15,12 @@
 	.bar{
 		width: 100%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
     color: #5641EA;
-    position: inherit;
+    position: fixed;
+    z-index: 2;
+    background-color: #FDFDFD;
+    border-bottom: 1px solid #D1D1D1;
 	  }
   }
 
