@@ -4,11 +4,11 @@ import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
     return (
-        <div className="center projects" >
+        <div className="center projects" id="projects" >
             <div className="project-box">
 
                 <Fade>
-                    <h1 className="center mp " id="projects">My Projects</h1>
+                    <h1 className="center mp " >My Projects</h1>
                 </Fade>
 
                 <Fade>
