@@ -26,12 +26,17 @@
 
 @media only screen and (max-device-width: 1500px) {
 	.header-box{
-		margin-top: -20px;
-		margin-bottom: 30px;
-		 position: relative;
-		 display: flex;
-		 justify-content: center;
-		 flex-direction: column;
+		position: relative;
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 	flex-direction: column;
+	 	margin-top: 50px;
+	 	width: 100%;
+	 	color: rgb(255, 255, 255);
+	 	padding: 150px;
+	 	background-color: rgba(255, 255, 255, 0.007);
+	 	backdrop-filter: blur(25px);
 	  }
   }
 
