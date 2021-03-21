@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Fade from 'react-reveal/Fade';
-import BounceLoader from "react-spinners/BounceLoader";
+// import BounceLoader from "react-spinners/BounceLoader";
 import './App.css';
 
 function App() {
@@ -21,16 +21,20 @@ function App() {
   return (
     <div>
       {
+
         loading ?
           <div class="loading">
-
-            <BounceLoader
+            <Fade>
+              {/* <BounceLoader
               color={"#5641EA"}
               loading={loading}
               size={100}
-            />
+            /> */}
+              <h2>Hey There!</h2>
+            </Fade>
             <div className="wave">👋</div>
           </div>
+
 
           :
           <div>

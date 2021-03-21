@@ -20,6 +20,7 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+  color: #5641EA;
 }
 
 .wave {
@@ -29,7 +30,6 @@
   transform-origin: 70% 70%;
   display: inline-block;
   font-size: 60px;
-  margin-top: 30px;
 }
 
 @keyframes wave-animation {
