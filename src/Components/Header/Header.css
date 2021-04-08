@@ -2,12 +2,10 @@
 
 .header{
 	position: relative;
-    padding: 80px;
-    align-items: stretch;
     background-color: #000;
-    background-image: url("https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fac36560db9c75ab13090ba_fresh-cta-background.jpg");
+    background: url(/src/Images/Hero.png);
     background-size: cover;
-
+	top: 30px;
 }
 
 .header-box {
@@ -16,28 +14,19 @@
 	 justify-content: center;
 	 align-items: center;
 	 flex-direction: column;
-	 margin-top: 50px;
-	 width: 100%;
+	 color: rgb(255, 255, 255);
+	 padding: 330px;
+}
+ @media only screen and (max-device-width: 1500px) {
+	.header-box{
+	position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
 	 color: rgb(255, 255, 255);
 	 padding: 200px;
-	 /* background-color: #011523; */
-	 backdrop-filter: blur(25px);
-}
-
-@media only screen and (max-device-width: 1500px) {
-	.header-box{
-		position: relative;
-	 	display: flex;
-	 	justify-content: center;
-	 	align-items: center;
-	 	flex-direction: column;
-	 	margin-top: 50px;
-	 	width: 100%;
-	 	color: rgb(255, 255, 255);
-	 	padding: 150px;
-	 	background-color: rgba(255, 255, 255, 0.007);
-	 	backdrop-filter: blur(25px);
-	  }
+	   }
   }
 
 .title {
