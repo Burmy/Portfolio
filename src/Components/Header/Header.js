@@ -16,7 +16,7 @@ const Header = () => {
             <div className="header-box">
                 <h2>My name is</h2>
                 <div className="title">
-                    <h1>Anmol Burmy.</h1>
+                    <h1>Anmol Burmy</h1>
                 </div>
                 <h2>A develepor in training.</h2>
                 <ul className="contacts">
