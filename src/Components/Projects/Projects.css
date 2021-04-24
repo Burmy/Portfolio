@@ -17,10 +17,8 @@
 
 .project-card {
   margin-bottom: 100px;
-  display: inline-block;
   width: 90%;
   height: 420px; 
-  display: flex;
   align-self: center;
 }
 
@@ -29,14 +27,6 @@
   border: 3px solid #001323;
   background-color: #5641EA;
   position: relative;
-}
-
-@media only screen and (max-device-width: 750px) {
-	.project-image{
-  width: 100%;
-  opacity: 50%;
-  z-index: -1;
-	}
 }
 
 .project-data{
@@ -222,3 +212,67 @@
   background-color: #5641EA;
 }
 
+@media only screen and (max-device-width: 700px) {
+  .project-image{
+    display: none !important;
+  }
+  .project-data{
+    flex-direction: column;
+    width: 70%;
+  }
+  .project-card {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40%; 
+    align-self: center;
+  }
+  .mp{
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .info{
+    margin-left: 0px;
+    text-align: center;
+  }
+  .info-opp{
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .name{
+    text-align: center;
+
+  }
+  .name-opp{
+    text-align: center;
+  }
+
+  .project-skills{
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .project-skills-opp{
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .project-links{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-links-opp{
+    justify-content: center;
+  }
+
+  .demo {
+    margin: 5px;
+  }
+
+  .demo-opp {
+    margin: 5px;
+  }
+
+}
