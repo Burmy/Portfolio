@@ -5,10 +5,13 @@
     background-color: #000;
     background: url(/src/Images/Hero.png);
     background-size: cover;
+	background-repeat:no-repeat;
 	top: 30px;
+	height: 800px;
+  	overflow: hidden;
 }
 
-.header-box {
+/* .header-box {
 	 position: relative;
 	 display: flex;
 	 justify-content: center;
@@ -16,7 +19,7 @@
 	 flex-direction: column;
 	 color: rgb(255, 255, 255);
 	 padding: 330px;
-}
+} */
  @media only screen and (max-device-width: 1500px) {
 	.header-box{
 	position: relative;
@@ -25,12 +28,11 @@
 	 align-items: center;
 	 flex-direction: column;
 	 color: rgb(255, 255, 255);
-	 padding: 200px;
+	 /* padding: 200px; */
 	   }
   }
 
 .title {
-	 width: 750px;
 	 position: relative;
 	 display: flex;
 	 align-items: center;
@@ -53,29 +55,39 @@
 	 			-2px 2px #0d1b1e, 2px -2px #0d1b1e, 5px 5px #5641EA;
 }
 
+
+
 h2{
 	font-size: 30px;
 }
-  @media only screen and (max-device-width: 550px) {
-	.header-box h2{
-		margin: 15px;
-		font-size: 22px;
-	}
-  }
 
 
-.header-box .title h1 span {
-	 width: 0px;
-	 height: 0px;
-	 border-radius: 50%;
-	 background: #5641EA;
-	 animation: popIn 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-	 animation-delay: 1.3s;
-	 margin-left: 5px;
-	 margin-top: -10px;
-	 position: absolute;
-	 bottom: 13px;
-	 right: -12px;
+@media only screen and (max-device-width: 700px) {
+	.title h1 {
+		font-size: 50px;
+   }
+
+   .header-box h2{
+	margin: 0px;
+	font-size: 22px;
+}
+}
+
+@media only screen and (max-device-width: 450px) {
+
+	.title {
+		margin: 10px;
+		margin-bottom: 12px;
+   }
+
+	.title h1 {
+		font-size: 33px;
+		margin: 0;
+   }
+
+   .header-box h2{
+	font-size: 18px;
+}
 }
 
 .contacts{
