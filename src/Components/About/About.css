@@ -99,6 +99,9 @@
 
 
 @media only screen and (max-device-width: 700px) {
+    .about-container {
+        margin-top: 140px;
+    }
     
     .about-box{
         padding: 12px 10px 12px 10px;
