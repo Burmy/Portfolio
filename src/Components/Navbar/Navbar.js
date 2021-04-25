@@ -16,7 +16,7 @@ const Navigation = () => {
                         <li>About</li>
                     </AnchorLink> */}
 
-                    <AnchorLink href='#projects'>
+                    <AnchorLink className="projects" href='#projects'>
                         <li>Projects</li>
                     </AnchorLink>
 
