@@ -7,8 +7,8 @@
     background-size: cover;
 	background-position: center center; 
     background-repeat:no-repeat;
-	top: 30px;
-	height: 800px;
+	top: 80px;
+	height: 900px;
   	overflow: hidden;
 }
 
@@ -25,6 +25,7 @@
 
 	.header{
 		top: 50px;
+		height: 800px;
 	}
 
 	.header-box{
