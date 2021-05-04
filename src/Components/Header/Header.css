@@ -18,7 +18,7 @@
 	 justify-content: center;
 	 align-items: center;
 	 flex-direction: column;
-	 color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 
  @media only screen and (max-device-width: 1500px) {
