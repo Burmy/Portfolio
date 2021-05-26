@@ -30,7 +30,7 @@ const Projects = () => {
                             </ul>
                             <div className="project-links">
                                 <form action="https://youtu.be/OyRgzGGD7uM" method="get" target="_blank">
-                                    <button className="demo">Live Demo</button>
+                                    <button className="demo">Youtube Demo</button>
                                 </form>
                                 <form action="https://github.com/Burmy/photo-app" method="get" target="_blank">
                                     <button className="demo">View Source</button>
