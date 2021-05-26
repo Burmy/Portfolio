@@ -26,6 +26,7 @@ const Projects = () => {
                                 <li className="skill">CSS</li>
                                 <li className="skill">JavaScript</li>
                                 <li className="skill">Handlebars</li>
+                                <li className="skill">Express.js</li>
                             </ul>
                             <div className="project-links">
                                 <form action="https://youtu.be/OyRgzGGD7uM" method="get" target="_blank">
