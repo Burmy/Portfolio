@@ -12,11 +12,41 @@ const Projects = () => {
 
                 <Fade>
                     <div className="center project-card ">
+                        <div className="center project-data">
+                            <h1 className="name-opp">RUMI</h1>
+                            <p className="info-opp">
+                                A web-based application helping students and young professionals alike find rooms and roommates
+                                around the San Francisco Bay Area.
+                            </p>
+                            <ul className="project-skills-opp">
+                                <li className="skill-opp">React</li>
+                                <li className="skill-opp">CSS</li>
+                                <li className="skill-opp">Express</li>
+                                <li className="skill-opp">MySQL</li>
+                                <li className="skill-opp">Firebase</li>
+                            </ul>
+                            <div className="project-links-opp">
+                                <form action="https://18.190.48.206/" method="get" target="_blank">
+                                    <button className="demo-opp">Live Demo</button>
+                                </form>
+                                <form action="https://github.com/Burmy/RUMI" method="get" target="_blank">
+                                    <button className="demo-opp">View Source</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div className="center project-image">
+                            <div className="img-rumi"></div>
+                        </div>
+                    </div>
+                </Fade>
+
+                <Fade>
+                    <div className="center project-card ">
                         <div className="center project-image">
                             <div className="img-photo-app"></div>
                         </div>
                         <div className="center project-data">
-                            <h1 className="name">Photo Sharing App</h1>
+                            <h1 className="name">Pixis</h1>
                             <p className="info">
                                 This is a photo management website that allows users to post images, search for images and view
                                 and comment on individual image posts.{" "}
@@ -26,7 +56,7 @@ const Projects = () => {
                                 <li className="skill">CSS</li>
                                 <li className="skill">JavaScript</li>
                                 <li className="skill">Handlebars</li>
-                                <li className="skill">Express.js</li>
+                                <li className="skill">Express</li>
                             </ul>
                             <div className="project-links">
                                 <form action="https://youtu.be/OyRgzGGD7uM" method="get" target="_blank">
@@ -157,25 +187,28 @@ const Projects = () => {
                 <Fade>
                     <div className="center project-card ">
                         <div className="center project-data">
-                            <h1 className="name-opp">My Portfolio</h1>
-                            <p className="info-opp">A website showcasing all my projects.</p>
+                            <h1 className="name-opp">InfoGram</h1>
+                            <p className="info-opp">
+                                Using Google Firebase, this is a private website where registered user can only view the cards and
+                                only admins have the capabilities to create new cards.
+                            </p>
                             <ul className="project-skills-opp">
                                 <li className="skill-opp">HTML</li>
                                 <li className="skill-opp">CSS</li>
                                 <li className="skill-opp">JavaScript</li>
-                                <li className="skill-opp">React</li>
+                                <li className="skill-opp">Firebase</li>
                             </ul>
                             <div className="project-links-opp">
-                                <form action="https://burmy.me/" method="get" target="_blank">
+                                <form action="https://csc-651.firebaseapp.com/" method="get" target="_blank">
                                     <button className="demo-opp">Live Demo</button>
                                 </form>
-                                <form action="https://github.com/Burmy/portfolio" method="get" target="_blank">
+                                <form action="https://github.com/Burmy/InfoGram" method="get" target="_blank">
                                     <button className="demo-opp">View Source</button>
                                 </form>
                             </div>
                         </div>
                         <div className="center project-image">
-                            <div className="img-portfolio"></div>
+                            <div className="img-info"></div>
                         </div>
                     </div>
                 </Fade>
