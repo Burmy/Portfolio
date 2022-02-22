@@ -26,8 +26,8 @@ const Projects = () => {
                                 <li className="skill-opp">Firebase</li>
                             </ul>
                             <div className="project-links-opp">
-                                <form action="https://18.190.48.206/" method="get" target="_blank">
-                                    <button className="demo-opp">Live Demo</button>
+                                <form action="https://youtu.be/vsSw3u31dvY" method="get" target="_blank">
+                                    <button className="demo-opp">Youtube Demo</button>
                                 </form>
                                 <form action="https://github.com/Burmy/RUMI" method="get" target="_blank">
                                     <button className="demo-opp">View Source</button>
