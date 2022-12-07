@@ -1,14 +1,14 @@
 .about-container {
-    position: relative;
-    z-index: -1;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+  position: relative;
+  z-index: -1;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 }
 
-@media screen and (min-width: 1440px){
-.aboutBG-1 {
+@media screen and (min-width: 1440px) {
+  .aboutBG-1 {
     position: absolute;
     left: 50%;
     top: -80px;
@@ -20,105 +20,100 @@
     -ms-transform: translate(-50%, 0px);
     transform: translate(-50%, 0px);
     -o-object-fit: fill;
-     object-fit: fill;
-    }
-}
-    
-.aboutBG-1 {
-    position: absolute;
-    left: 50%;
-    top: -72px;
-    right: auto;
-    z-index: -1;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    -webkit-transform: translate(-50%, 0px);
-    -ms-transform: translate(-50%, 0px);
-    transform: translate(-50%, 0px);
+    object-fit: fill;
+  }
 }
 
-@media screen and (min-width: 1440px){
-    .aboutBG-2 {
-        position: absolute;
-        left: auto;
-        top: -84px;
-        right: -50px;
-        bottom: auto;
-        width: 33%;
-    }
+.aboutBG-1 {
+  position: absolute;
+  left: 50%;
+  top: -72px;
+  right: auto;
+  z-index: -1;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+
+@media screen and (min-width: 1440px) {
+  .aboutBG-2 {
+    position: absolute;
+    left: auto;
+    top: -84px;
+    right: -50px;
+    bottom: auto;
+    width: 33%;
+  }
 }
 
 .aboutBG-2 {
-    position: absolute;
-    top: -73px;
-    bottom: auto;
-    width: 35%;
+  position: absolute;
+  top: -73px;
+  bottom: auto;
+  width: 35%;
 }
 
-
-
-@media screen and (min-width: 1440px){
-    .aboutBG-3{
-        left: -54px;
-        top: 84px;
-        bottom: auto;
-        width: 55%;
-    }
-}
-
-
-.aboutBG-3 {
-    position: absolute;
-    top: 50px;
+@media screen and (min-width: 1440px) {
+  .aboutBG-3 {
+    left: -54px;
+    top: 84px;
     bottom: auto;
     width: 55%;
+  }
 }
 
+.aboutBG-3 {
+  position: absolute;
+  top: 50px;
+  bottom: auto;
+  width: 55%;
+}
 
-.hl{
-    color:#5641EA;}
+.hl {
+  color: #5641ea;
+}
 
 .about-box {
-    position: relative;
-    padding: 40px 100px 40px 100px;
-    font-size: 25px;
-    text-align: center;
-    border: 3px solid #001323;
-    background-color: #FDFDFD;
-    line-height: 30px;
-    width: 70%;
+  position: relative;
+  padding: 40px 100px 40px 100px;
+  font-size: 25px;
+  text-align: center;
+  border: 3px solid #001323;
+  background-color: #fdfdfd;
+  line-height: 30px;
+  width: 70%;
 }
-
 
 @media only screen and (max-device-width: 1500px) {
-	.about-box{
-         padding: 40px 90px 40px 90px;
-	}
+  .about-box {
+    padding: 40px 90px 40px 90px;
+  }
 }
 
-
 @media only screen and (max-device-width: 700px) {
-    .about-container {
-        margin-top: 140px;
-    }
-    
-    .about-box{
-        padding: 12px 10px 12px 10px;
-        font-size: 20px;
-        line-height: 23px;
-        width: 80%;
-	}
+  .about-container {
+    margin-top: 140px;
+  }
 
-    .aboutBG-1 {
-        display: none;
-    }
+  .about-box {
+    padding: 12px 10px 12px 10px;
+    font-size: 20px;
+    line-height: 23px;
+    width: 80%;
+  }
 
-    .aboutBG-2 {
-        display: none;
-    }
+  .aboutBG-1 {
+    display: none;
+  }
 
-    .aboutBG-3 {
-        display: none;
-    }
+  .aboutBG-2 {
+    display: none;
+  }
+
+  .aboutBG-3 {
+    display: none;
+  }
 }

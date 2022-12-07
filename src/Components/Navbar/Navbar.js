@@ -7,13 +7,8 @@ const Navigation = () => {
   return (
     <div className="bar" id="Navbar">
       <div className="logo"></div>
-
       <nav className="nav">
         <ul className="nav-ul">
-          {/* <AnchorLink href='#About'>
-                        <li>About</li>
-                    </AnchorLink> */}
-
           <AnchorLink className="projects" href="#projects">
             <li>Projects</li>
           </AnchorLink>
