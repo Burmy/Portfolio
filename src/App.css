@@ -8,7 +8,7 @@
 }
 
 .center {
-  display: flex !important;
+  display: flex;
   justify-content: center;
   color: #0c0808;
 }
