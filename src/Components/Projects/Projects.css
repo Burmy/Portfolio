@@ -162,7 +162,44 @@
   justify-content: center;
 }
 
+.img-hacks2 {
+  background: url(/src/Images/hacks2.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-rent {
+  background: url(/src/Images/Rent.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-pixel {
+  background: url(/src/Images/Pixel.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .img-hacks:hover,
+.img-hacks2:hover,
 .img-robo:hover,
 .img-face:hover,
 .img-portfolio:hover,
@@ -171,7 +208,10 @@
 .img-photo-app:hover,
 .img-netflix:hover,
 .img-rumi:hover,
-.img-info:hover {
+.img-info:hover,
+.img-wildfire:hover,
+.img-rent:hover,
+.img-pixel:hover {
   opacity: 1;
   /* cursor: pointer; */
 }

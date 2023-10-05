@@ -16,7 +16,7 @@ const Header = () => {
         <div className="title">
           <h1>Anmol Burmy</h1>
         </div>
-        <h2>A developer in training.</h2>
+        <h2>Front End Developer at Cognizant</h2>
         <ul className="contacts">
           <p className="line"></p>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/Burmy">
