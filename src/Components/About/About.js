@@ -23,10 +23,17 @@ const About = () => {
       </div>
       <div className="about-box">
         <p>
-          A Computer Science graduate from <span className="hl">San Francisco State University</span> who is passionate about
-          becoming a Front-end Developer. I love creating things on the web and be <span className="hl">very detailed</span> with
-          them. I aspire toward a career that will allow me to channel my creativity through crafting{" "}
-          <span className="hl">beautiful</span> software and <span className="hl">engaging</span> experiences.
+          I'm a dedicated Front-End Developer with a passion for creating{" "}
+          <span className="hl">seamless, visually appealing </span>
+          and <span className="hl">user-centric</span> web experiences. With a strong foundation in web technologies and a{" "}
+          <span className="hl">keen eye</span> for design, I specialize in bringing ideas to life through{" "}
+          <span className="hl">clean, efficient</span> and
+          <span className="hl"> accessible code.</span>
+          {/* A passionate Front-end Developer with a love for creating{" "}
+          <span className="hl">immersive</span> and <span className="hl">user-friendly</span> web experiences. I love creating
+          things on the web and be <span className="hl">very detailed</span> with them. I aspire toward a career that will allow
+          me to channel my creativity through crafting <span className="hl">beautiful</span> software and{" "}
+          <span className="hl">engaging</span> experiences. */}
         </p>
       </div>
     </div>
