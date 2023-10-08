@@ -59,15 +59,6 @@ const Projects = () => {
       img: "img-hacks",
     },
     {
-      name: "Wildfire Tracker",
-      info: "This website tracks the wildfires going around the world using a NASA API.",
-      skill: "HTML  CSS  JavaScript  React  NASA API",
-      demo: "https://burmy.github.io/Wildfire-Tracker/?",
-      demo_type: "Live Demo",
-      source: "https://github.com/Burmy/Wildfire-tracker?",
-      img: "img-wildfire",
-    },
-    {
       name: "Netflix Repo App",
       info: "This is a simple Netflix repositories searching app. The user can search any repositories using the search bar and each repository contains the information about the recent commits made to the repository.",
       skill: "HTML  CSS  JavaScript",
@@ -75,6 +66,15 @@ const Projects = () => {
       demo_type: "Live Demo",
       source: "https://github.com/Burmy/netflix-repo-app?",
       img: "img-netflix",
+    },
+    {
+      name: "InfoGram",
+      info: "Using Google Firebase, this is a private website where registered user can only view the cards and only admins have the capabilities to create new cards.",
+      skill: "HTML  CSS  JavaScript  Firebase",
+      demo: "https://csc-651.firebaseapp.com/?",
+      demo_type: "Live Demo",
+      source: "https://github.com/Burmy/InfoGram?",
+      img: "img-info",
     },
     {
       name: "Crypto Currency Tracker",
@@ -85,14 +85,15 @@ const Projects = () => {
       source: "https://github.com/Burmy/Crypto-tracker?",
       img: "img-crypto",
     },
+
     {
-      name: "InfoGram",
-      info: "Using Google Firebase, this is a private website where registered user can only view the cards and only admins have the capabilities to create new cards.",
-      skill: "HTML  CSS  JavaScript  Firebase",
-      demo: "https://csc-651.firebaseapp.com/?",
+      name: "Wildfire Tracker",
+      info: "This website tracks the wildfires going around the world using a NASA API.",
+      skill: "HTML  CSS  JavaScript  React  NASA API",
+      demo: "https://burmy.github.io/Wildfire-Tracker/?",
       demo_type: "Live Demo",
-      source: "https://github.com/Burmy/InfoGram?",
-      img: "img-info",
+      source: "https://github.com/Burmy/Wildfire-tracker?",
+      img: "img-wildfire",
     },
     {
       name: "Face Detecting AI",
