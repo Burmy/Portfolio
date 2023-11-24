@@ -26,7 +26,7 @@ const Projects = () => {
       name: "2022 SF Hacks Website",
       info: "Official SF Hacks website developed for the 2022 Hackathon.",
       skill: "HTML  CSS  JavaScript  React",
-      demo: "https://sfhacks.io/",
+      demo: "https://sfhacks.netlify.app/",
       demo_type: "Live Demo",
       source: "https://github.com/Burmy/SFHacks-Website",
       img: "img-hacks2",
